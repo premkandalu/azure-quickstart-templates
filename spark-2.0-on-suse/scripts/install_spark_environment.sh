@@ -124,7 +124,8 @@ install_spark()
 	mkdir /usr/local/sparkforsuse
 	cd /usr/local/sparkforsuse
 	
-	wget http://mirrors.advancedhosters.com/apache/spark/spark-2.0.1/spark-2.0.1-bin-hadoop2.7.tgz
+	#wget http://mirrors.advancedhosters.com/apache/spark/spark-2.0.1/spark-2.0.1-bin-hadoop2.7.tgz
+	wget https://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.7.tgz
 	
 	tar xvzf spark-2.0.1-bin-hadoop2.7.tgz > /tmp/spark_unzip.log
 	rm spark-2.0.1-bin-hadoop2.7.tgz
