@@ -28,7 +28,7 @@
       "metadata": {
         "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/spark-2.0-on-suse/"
+      "defaultValue": "https://raw.githubusercontent.com/premkandalu/azure-quickstart-templates/master/spark-2.0-on-suse/"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
@@ -44,8 +44,8 @@
     "storageAccountName": "[concat(uniquestring(resourceGroup().id),'storageac')]",
     "sparkMasterMachineName": "sparkmaster",
     "sparkSlaveMachineName": "sparkslave",
-    "sparkMasterSize": "Standard_D3_v2",
-    "sparkSlavesSize": "Standard_D3_v2",
+    "sparkMasterSize": "Standard_D2_v2",
+    "sparkSlavesSize": "Standard_D2_v2",
     "sparkMasterPublicIpName": "sparkMasterPublicIp",
     "sparkNetWorkSecurityGroupName": "nsgroup",
     "sparkVirtualNetworkName": "sparkVirtualNetwork",
